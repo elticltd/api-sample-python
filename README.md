@@ -5,9 +5,16 @@ Sample Python script to demonstrate how to implement the ELTic API
 
 ## Note:
 ### Request your account by emailing your details to hello@eltic.io
-- account_token = "supply your own"
-- secret_key = "supply your own"
-- vanity_name = "supply your own"
+- account_token = "Email hello@eltic.io to get your token"
+- secret_key = "Email hello@eltic.io to get your token"
+- vanity_name = "Choose a linkedin vanity name to test with"*
+*See section below explaining the vanity name
+
+
+## Files
+- main_functions contains all the referenced functions to call.  The api calls are managed within each of the functions for example purposes.
+- refresh is the example to do a refresh of a person.
+- bulksearch contains an example to do a bulk search.
 
 
 ## Sequence of function calls in the application
@@ -124,3 +131,6 @@ Suppose your name is John Doe. A LinkedIn profile URL with a vanity name could b
   https://www.linkedin.com/in/john-doe
 
 In this case, "johndoe" or "john-doe" is the vanity name. It's a simple, professional way to represent yourself on LinkedIn.
+
+## Disclaimer
+Please use this responsibly.  This is not inteded to be production ready or secure to be used on a production environment.  The purpose is to provide an example of how these calls works using Python.
