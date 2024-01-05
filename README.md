@@ -8,6 +8,7 @@ Sample Python script to demonstrate how to implement the ELTic API
 - account_token = "Email hello@eltic.io to get your token"
 - secret_key = "Email hello@eltic.io to get your token"
 - vanity_name = "Choose a linkedin vanity name to test with"*
+
 *See section below explaining the vanity name
 
 
